@@ -1,3 +1,5 @@
+var upper = require('upper-case');
+
 /**
  * Uppercase the first character of a string.
  *
@@ -11,5 +13,5 @@ module.exports = function (str) {
 
   str = String(str);
 
-  return str.charAt(0).toUpperCase() + str.substr(1);
+  return upper(str.charAt(0)) + str.substr(1);
 };
