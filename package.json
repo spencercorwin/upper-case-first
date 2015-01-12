@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Uppercase a string",
   "main": "upper-case-first.js",
+  "files": [
+    "upper-case-first.js",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
